@@ -1,0 +1,16 @@
+spring:
+  profiles.active: 'dev'
+  application:
+    name: similar-web-home-assignment
+
+server:
+  port: 8501
+  compression:
+    enabled: true
+    mime-types: application/json
+
+logging:
+  file: logs/similar-web-home-assignment.log
+  level:
+    root: 'INFO'
+
